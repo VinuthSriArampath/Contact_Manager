@@ -194,6 +194,7 @@ public class DeleteContact extends JFrame {
                 int index = new Management().search(searchby.getText());
                 if (index >= 0) {
                     Mainform.customerList.remove(index);
+                    Management.updateid();
                     JOptionPane.showMessageDialog(null, "Customer contact deleted successfully", "Success", JOptionPane.INFORMATION_MESSAGE);
                     dispose();
                     new DeleteContact().setVisible(true);

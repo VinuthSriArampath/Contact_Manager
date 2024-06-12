@@ -265,6 +265,20 @@ public class Management {
         return contacttemp;
     }
 
+    public static void updateid(){
+        for(int i=0;i<Mainform.customerList.size();i++){
+            if(i<9){
+                Mainform.customerList.get(i).setId("C000"+i+1);
+            }else if(i<99){
+                Mainform.customerList.get(i).setId("C000"+i+1);
+            }else if(i<999){
+                Mainform.customerList.get(i).setId("C000"+i+1);
+            }else if(i<9999){
+                Mainform.customerList.get(i).setId("C000"+i+1);
+            }
+        }
+    }
+
 
 
 }
