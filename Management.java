@@ -270,11 +270,11 @@ public class Management {
             if(i<9){
                 Mainform.customerList.get(i).setId("C000"+i+1);
             }else if(i<99){
-                Mainform.customerList.get(i).setId("C000"+i+1);
+                Mainform.customerList.get(i).setId("C00"+i+1);
             }else if(i<999){
-                Mainform.customerList.get(i).setId("C000"+i+1);
+                Mainform.customerList.get(i).setId("C0"+i+1);
             }else if(i<9999){
-                Mainform.customerList.get(i).setId("C000"+i+1);
+                Mainform.customerList.get(i).setId("C"+i+1);
             }
         }
     }
