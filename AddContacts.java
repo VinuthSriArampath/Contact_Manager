@@ -150,7 +150,7 @@ class AddContacts extends JFrame {
                 } else if (!new Management().validatesalary(salarytemp)) {
                     n1.invalidsalary();
                 } else if (!new Management().validatebday(bdaytemp)) {
-                    n1.invalidsalary();
+                    n1.invalidbday();
                 } else {
                     Contact customer = new Contact(idtemp, nametemp, phonetemp, companytemp, salarytemp, bdaytemp);
                     Mainform.customerList.add(customer);

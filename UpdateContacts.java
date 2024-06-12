@@ -202,7 +202,7 @@ public class UpdateContacts extends JFrame {
                     } else if (!new Management().validatesalary(salarytemp)) {
                         n1.invalidsalary();
                     } else if (!new Management().validatebday(bdaytemp)) {
-                        n1.invalidsalary();
+                        n1.invalidbday();
                     } else {
                         int index = new Management().search(searchby.getText());
                         Mainform.customerList.get(index).setId(gotID);
