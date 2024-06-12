@@ -8,7 +8,7 @@ public class notification extends JFrame{
         JOptionPane.showMessageDialog(null, "Invalid Salary ... Please Re-enter ","Invalid Birthday",JOptionPane.ERROR_MESSAGE);
     }
     public void invalidbday(){
-        JOptionPane.showMessageDialog(null, "Invalid Salary ... Please Re-enter ","Invalid Birthday",JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Invalid Brithday ... Please Re-enter ","Invalid Birthday",JOptionPane.ERROR_MESSAGE);
     }
 
     public void Sucssadd(){

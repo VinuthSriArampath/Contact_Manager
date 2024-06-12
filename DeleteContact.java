@@ -196,7 +196,7 @@ public class DeleteContact extends JFrame {
                     Mainform.customerList.remove(index);
                     JOptionPane.showMessageDialog(null, "Customer contact deleted successfully", "Success", JOptionPane.INFORMATION_MESSAGE);
                     dispose();
-                    new Mainform().setVisible(true);
+                    new DeleteContact().setVisible(true);
                 } else {
                     JOptionPane.showMessageDialog(null, "Customer not found", "Error", JOptionPane.ERROR_MESSAGE);
                 }
@@ -211,7 +211,7 @@ public class DeleteContact extends JFrame {
         Home.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent evt) {
                 dispose();
-                new DeleteContact().setVisible(true);
+                new Mainform().setVisible(true);
             }
         });
         btnbottompanel.add(Home);
